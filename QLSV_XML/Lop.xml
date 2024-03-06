@@ -1,1 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QL_Lop>
+	<Lop Id_Lop="l01">
+		<TenLop></TenLop>
+		<TenGVCN></TenGVCN>
+		<SiSo></SiSo>
+	</Lop>
+	<Lop Id_Lop="l023">
+		<TenLop></TenLop>
+		<TenGVCN></TenGVCN>
+		<SiSo></SiSo>
+	</Lop>
+</QL_Lop>

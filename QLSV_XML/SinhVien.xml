@@ -1,1 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QL_SinhVien>
+	<SinhVien Id_SinhVien="sv01">
+		<Id_Lop></Id_Lop>
+		<HoTen></HoTen>
+		<NgaySinh></NgaySinh>
+		<GioiTinh></GioiTinh>
+		<DiaChi></DiaChi>
+		<SDT></SDT>
+		<GPA></GPA>
+	</SinhVien>
+
+	<SinhVien Id_SinhVien="sv02">
+		<Id_Lop></Id_Lop>
+		<HoTen></HoTen>
+		<NgaySinh></NgaySinh>
+		<GioiTinh></GioiTinh>
+		<DiaChi></DiaChi>
+		<SDT></SDT>
+		<GPA></GPA>
+	</SinhVien>
+	
+</QL_SinhVien>

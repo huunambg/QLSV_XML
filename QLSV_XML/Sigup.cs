@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace QLSV_XML
 {
-    public partial class Form1 : Form
+    public partial class Sigup : Form
     {
-        public Form1()
+        public Sigup()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
