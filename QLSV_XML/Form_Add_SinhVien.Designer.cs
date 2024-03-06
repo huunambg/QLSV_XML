@@ -29,19 +29,17 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txt_id_sinhvien = new System.Windows.Forms.TextBox();
+            this.txt_hoten = new System.Windows.Forms.TextBox();
+            this.txt_ngaysinh = new System.Windows.Forms.TextBox();
+            this.txt_gioitinh = new System.Windows.Forms.TextBox();
+            this.txt_dienthoai = new System.Windows.Forms.TextBox();
+            this.txt_diachi = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
@@ -50,35 +48,26 @@
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txt_gpa = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(255, 60);
+            this.label1.Location = new System.Drawing.Point(260, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 16);
+            this.label1.Size = new System.Drawing.Size(85, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Id Sinh Viên";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(263, 91);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Id Lớp";
+            this.label1.Text = "Mã Sinh Viên";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(263, 129);
+            this.label3.Location = new System.Drawing.Point(268, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 16);
             this.label3.TabIndex = 2;
@@ -87,7 +76,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(255, 164);
+            this.label4.Location = new System.Drawing.Point(260, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 16);
             this.label4.TabIndex = 0;
@@ -96,7 +85,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(545, 73);
+            this.label5.Location = new System.Drawing.Point(260, 188);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 16);
             this.label5.TabIndex = 1;
@@ -105,7 +94,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(545, 107);
+            this.label6.Location = new System.Drawing.Point(545, 79);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 16);
             this.label6.TabIndex = 2;
@@ -114,69 +103,63 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(545, 143);
+            this.label7.Location = new System.Drawing.Point(545, 117);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 16);
             this.label7.TabIndex = 3;
             this.label7.Text = "Điện Thoại";
             // 
-            // textBox1
+            // txt_id_sinhvien
             // 
-            this.textBox1.Location = new System.Drawing.Point(347, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(137, 22);
-            this.textBox1.TabIndex = 4;
+            this.txt_id_sinhvien.Location = new System.Drawing.Point(352, 73);
+            this.txt_id_sinhvien.Name = "txt_id_sinhvien";
+            this.txt_id_sinhvien.Size = new System.Drawing.Size(137, 22);
+            this.txt_id_sinhvien.TabIndex = 4;
             // 
-            // textBox2
+            // txt_hoten
             // 
-            this.textBox2.Location = new System.Drawing.Point(347, 88);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(137, 22);
-            this.textBox2.TabIndex = 4;
+            this.txt_hoten.Location = new System.Drawing.Point(352, 108);
+            this.txt_hoten.Name = "txt_hoten";
+            this.txt_hoten.Size = new System.Drawing.Size(137, 22);
+            this.txt_hoten.TabIndex = 4;
             // 
-            // textBox3
+            // txt_ngaysinh
             // 
-            this.textBox3.Location = new System.Drawing.Point(347, 126);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(137, 22);
-            this.textBox3.TabIndex = 4;
+            this.txt_ngaysinh.Location = new System.Drawing.Point(352, 142);
+            this.txt_ngaysinh.Name = "txt_ngaysinh";
+            this.txt_ngaysinh.Size = new System.Drawing.Size(137, 22);
+            this.txt_ngaysinh.TabIndex = 4;
             // 
-            // textBox4
+            // txt_gioitinh
             // 
-            this.textBox4.Location = new System.Drawing.Point(347, 160);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(137, 22);
-            this.textBox4.TabIndex = 4;
+            this.txt_gioitinh.Location = new System.Drawing.Point(352, 185);
+            this.txt_gioitinh.Name = "txt_gioitinh";
+            this.txt_gioitinh.Size = new System.Drawing.Size(137, 22);
+            this.txt_gioitinh.TabIndex = 4;
             // 
-            // textBox5
+            // txt_dienthoai
             // 
-            this.textBox5.Location = new System.Drawing.Point(653, 70);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(137, 22);
-            this.textBox5.TabIndex = 4;
+            this.txt_dienthoai.Location = new System.Drawing.Point(653, 114);
+            this.txt_dienthoai.Name = "txt_dienthoai";
+            this.txt_dienthoai.Size = new System.Drawing.Size(137, 22);
+            this.txt_dienthoai.TabIndex = 4;
             // 
-            // textBox6
+            // txt_diachi
             // 
-            this.textBox6.Location = new System.Drawing.Point(653, 140);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(137, 22);
-            this.textBox6.TabIndex = 4;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(653, 101);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(137, 22);
-            this.textBox7.TabIndex = 4;
+            this.txt_diachi.Location = new System.Drawing.Point(653, 73);
+            this.txt_diachi.Name = "txt_diachi";
+            this.txt_diachi.Size = new System.Drawing.Size(137, 22);
+            this.txt_diachi.TabIndex = 4;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(461, 213);
+            this.button1.Location = new System.Drawing.Point(462, 230);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(205, 49);
             this.button1.TabIndex = 5;
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel1
             // 
@@ -265,16 +248,6 @@
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(230, 285);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(726, 197);
-            this.dataGridView1.TabIndex = 7;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -285,35 +258,50 @@
             this.panel2.Size = new System.Drawing.Size(729, 41);
             this.panel2.TabIndex = 8;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(557, 158);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 16);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "GPA";
+            // 
+            // txt_gpa
+            // 
+            this.txt_gpa.Location = new System.Drawing.Point(653, 155);
+            this.txt_gpa.Name = "txt_gpa";
+            this.txt_gpa.Size = new System.Drawing.Size(137, 22);
+            this.txt_gpa.TabIndex = 4;
+            // 
             // Form_Add_SinhVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(959, 482);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_ngaysinh);
+            this.Controls.Add(this.txt_diachi);
+            this.Controls.Add(this.txt_gpa);
+            this.Controls.Add(this.txt_dienthoai);
+            this.Controls.Add(this.txt_hoten);
+            this.Controls.Add(this.txt_gioitinh);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txt_id_sinhvien);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Name = "Form_Add_SinhVien";
             this.Text = "Form_Add_SinhVien";
+            this.Load += new System.EventHandler(this.Form_Add_SinhVien_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -322,28 +310,27 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_id_sinhvien;
+        private System.Windows.Forms.TextBox txt_hoten;
+        private System.Windows.Forms.TextBox txt_ngaysinh;
+        private System.Windows.Forms.TextBox txt_gioitinh;
+        private System.Windows.Forms.TextBox txt_dienthoai;
+        private System.Windows.Forms.TextBox txt_diachi;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_gpa;
     }
 }

@@ -1,23 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <QL_SinhVien>
-	<SinhVien Id_SinhVien="sv01">
-		<Id_Lop>1</Id_Lop>
-		<HoTen>Nong Huu Nam</HoTen>
-		<NgaySinh></NgaySinh>
-		<GioiTinh></GioiTinh>
-		<DiaChi></DiaChi>
-		<SDT></SDT>
-		<GPA></GPA>
-	</SinhVien>
-
-	<SinhVien Id_SinhVien="sv02">
-		<Id_Lop>3</Id_Lop>
-		<HoTen>NguyenThanh Long</HoTen>
-		<NgaySinh></NgaySinh>
-		<GioiTinh></GioiTinh>
-		<DiaChi></DiaChi>
-		<SDT></SDT>
-		<GPA></GPA>
-	</SinhVien>
-	
+  <SinhVien Id_SinhVien="sv01">
+    <Id_Lop>6</Id_Lop>
+    <HoTen>Nong Huu Nam</HoTen>
+    <NgaySinh>3/12/2002</NgaySinh>
+    <GioiTinh>Nam</GioiTinh>
+    <DiaChi>BG</DiaChi>
+    <SDT>123</SDT>
+    <GPA>4</GPA>
+  </SinhVien>
+  <SinhVien Id_SinhVien="sv02">
+    <Id_Lop>7</Id_Lop>
+    <HoTen>NguyenThanh Long</HoTen>
+    <NgaySinh>13/08/2002</NgaySinh>
+    <GioiTinh>Nam</GioiTinh>
+    <DiaChi>Qn</DiaChi>
+    <SDT>123</SDT>
+    <GPA>4</GPA>
+  </SinhVien>
+  <SinhVien Id_SinhVien="123">
+    <Id_Lop>7</Id_Lop>
+    <HoTen>123</HoTen>
+    <NgaySinh>123</NgaySinh>
+    <GioiTinh>456</GioiTinh>
+    <DiaChi>456</DiaChi>
+    <SDT>456</SDT>
+    <GPA>56</GPA>
+  </SinhVien>
+  <SinhVien Id_SinhVien="n012">
+    <Id_Lop>6</Id_Lop>
+    <HoTen>123</HoTen>
+    <NgaySinh>345</NgaySinh>
+    <GioiTinh>567</GioiTinh>
+    <DiaChi>243</DiaChi>
+    <SDT>345</SDT>
+    <GPA>4657</GPA>
+  </SinhVien>
 </QL_SinhVien>

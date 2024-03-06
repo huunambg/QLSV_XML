@@ -16,5 +16,10 @@ namespace QLSV_XML
         {
             InitializeComponent();
         }
+
+        private void Form_Edit_Lop_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

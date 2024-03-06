@@ -15,7 +15,7 @@ namespace QLSV_XML
     {
         string id_lop;
         string id_tk;
-        string fileName = @"D:\Soure_Code\Window\QLSV_XML\QLSV_XML\SinhVien.xml";
+        string fileName = @"D:\zKiemlongJr\XML\QLSV\QLSV_XML\SinhVien.xml";
         XmlDocument doc = new XmlDocument();
         XmlElement ql_sv;
         public Form_QLSV(string id_lop, string id_tk)
@@ -27,7 +27,6 @@ namespace QLSV_XML
 
         private void Form_QLSV_Load(object sender, EventArgs e)
         {
-
 
             show(dgv_QL_sv);
 
@@ -56,9 +55,9 @@ namespace QLSV_XML
                     dgv.Rows[sd].Cells[0].Value = node.SelectSingleNode("HoTen").InnerText;
                     dgv.Rows[sd].Cells[1].Value = node.SelectSingleNode("NgaySinh").InnerText;
                     dgv.Rows[sd].Cells[2].Value = node.SelectSingleNode("GioiTinh").InnerText;
-                    dgv.Rows[sd].Cells[2].Value = node.SelectSingleNode("DiaChi").InnerText;
-                    dgv.Rows[sd].Cells[2].Value = node.SelectSingleNode("SDT").InnerText;
-                    dgv.Rows[sd].Cells[2].Value = node.SelectSingleNode("GPA").InnerText;
+                    dgv.Rows[sd].Cells[3].Value = node.SelectSingleNode("DiaChi").InnerText;
+                    dgv.Rows[sd].Cells[4].Value = node.SelectSingleNode("SDT").InnerText;
+                    dgv.Rows[sd].Cells[5].Value = node.SelectSingleNode("GPA").InnerText;
                     sd++;
 
                 }
@@ -73,6 +72,20 @@ namespace QLSV_XML
             this.Hide();
             Form1 form1 = new Form1(this.id_tk);
             form1.ShowDialog();
+        }
+
+        private void dgv_QL_sv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btn_them_sinhvien_Click(object sender, EventArgs e)
+        {
+          
+            this.Hide();
+            Form_Add_SinhVien form_Add_SinhVien = new Form_Add_SinhVien(this.id_lop, this.id_tk);
+            form_Add_SinhVien.ShowDialog();
+
         }
     }
 }

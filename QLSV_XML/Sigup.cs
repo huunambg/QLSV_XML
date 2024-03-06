@@ -15,7 +15,7 @@ namespace QLSV_XML
     {
 
 
-        string fileName = @"D:\Soure_Code\Window\QLSV_XML\QLSV_XML\TaiKhoan.xml";
+        string fileName = @"D:\zKiemlongJr\XML\QLSV\QLSV_XML\TaiKhoan.xml";
         XmlDocument doc = new XmlDocument();
         XmlElement ql_taikhoan;
 
@@ -100,5 +100,9 @@ namespace QLSV_XML
 
         }
 
+        private void Sigup_Load(object sender, EventArgs e)
+        {
+
         }
+    }
 }

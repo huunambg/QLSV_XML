@@ -2,37 +2,47 @@
 <QL_Lop>
   <Lop Id_Lop="1">
     <Id_TaiKhoan>1</Id_TaiKhoan>
-		<TenLop>CNTTK19A</TenLop><SiSo>50</SiSo></Lop>
-  <Lop Id_Lop="2">
-	  
-	  
-    <Id_TaiKhoan>1</Id_TaiKhoan>
-		<TenLop>CNTTK19B</TenLop>
-	  <SiSo>50</SiSo>
+    <TenLop>CNTTK19A</TenLop>
+    <SiSo>50</SiSo>
   </Lop>
-	
-	
+  <Lop Id_Lop="2">
+    <Id_TaiKhoan>1</Id_TaiKhoan>
+    <TenLop>CNTTK19B</TenLop>
+    <SiSo>50</SiSo>
+  </Lop>
   <Lop Id_Lop="l01">
     <Id_TaiKhoan>3</Id_TaiKhoan>
-		<TenLop>CNTTK19C</TenLop>
-	  <SiSo>50</SiSo>
+    <TenLop>CNTTK19C</TenLop>
+    <SiSo>50</SiSo>
   </Lop>
-	
-	
-	
   <Lop Id_Lop="4">
-	  <Id_TaiKhoan>1</Id_TaiKhoan>
+    <Id_TaiKhoan>1</Id_TaiKhoan>
     <TenLop>CNTTK19D</TenLop>
     <SiSo>22</SiSo>
-    
   </Lop>
-	
-	
-	
   <Lop Id_Lop="5">
-	  <Id_TaiKhoan>1</Id_TaiKhoan>
-	  <TenLop>ádasd</TenLop>
-	  <SiSo>334</SiSo>
-
+    <Id_TaiKhoan>1</Id_TaiKhoan>
+    <TenLop>ádasd</TenLop>
+    <SiSo>334</SiSo>
+  </Lop>
+  <Lop Id_Lop="6">
+    <TenLop>no1</TenLop>
+    <SiSo>44</SiSo>
+    <Id_TaiKhoan>2</Id_TaiKhoan>
+  </Lop>
+  <Lop Id_Lop="7">
+    <TenLop>no2</TenLop>
+    <SiSo>50</SiSo>
+    <Id_TaiKhoan>2</Id_TaiKhoan>
+  </Lop>
+  <Lop Id_Lop="8">
+    <TenLop>no3</TenLop>
+    <SiSo>44</SiSo>
+    <Id_TaiKhoan>4</Id_TaiKhoan>
+  </Lop>
+  <Lop Id_Lop="9">
+    <TenLop>no5</TenLop>
+    <SiSo>11</SiSo>
+    <Id_TaiKhoan>4</Id_TaiKhoan>
   </Lop>
 </QL_Lop>

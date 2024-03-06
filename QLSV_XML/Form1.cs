@@ -17,7 +17,7 @@ namespace QLSV_XML
 
         String id_TK;
         string id_lop;
-        string fileName = @"D:\Soure_Code\Window\QLSV_XML\QLSV_XML\Lop.xml";
+        string fileName = @"D:\zKiemlongJr\XML\QLSV\QLSV_XML\Lop.xml";
         XmlDocument doc = new XmlDocument();
         XmlElement ql_Lop;
         public Form1(String id_TK)

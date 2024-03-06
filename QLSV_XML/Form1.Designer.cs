@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.dgv_QL_Lop = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btn_them_lop = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.IdLop = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenLop = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SiSo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btn_them_lop = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_QL_Lop)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -54,13 +54,35 @@
             this.IdLop,
             this.TenLop,
             this.SiSo});
-            this.dgv_QL_Lop.Location = new System.Drawing.Point(176, 37);
+            this.dgv_QL_Lop.Location = new System.Drawing.Point(235, 46);
+            this.dgv_QL_Lop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgv_QL_Lop.Name = "dgv_QL_Lop";
             this.dgv_QL_Lop.RowHeadersWidth = 51;
-            this.dgv_QL_Lop.Size = new System.Drawing.Size(756, 413);
+            this.dgv_QL_Lop.Size = new System.Drawing.Size(1008, 508);
             this.dgv_QL_Lop.TabIndex = 1;
             this.dgv_QL_Lop.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_QL_Lop_CellContentClick);
             this.dgv_QL_Lop.Click += new System.EventHandler(this.dgv_QL_Lop_Click);
+            // 
+            // IdLop
+            // 
+            this.IdLop.HeaderText = "Id Lớp";
+            this.IdLop.MinimumWidth = 6;
+            this.IdLop.Name = "IdLop";
+            this.IdLop.Width = 125;
+            // 
+            // TenLop
+            // 
+            this.TenLop.HeaderText = "Tên lớp";
+            this.TenLop.MinimumWidth = 6;
+            this.TenLop.Name = "TenLop";
+            this.TenLop.Width = 125;
+            // 
+            // SiSo
+            // 
+            this.SiSo.HeaderText = "Sĩ số";
+            this.SiSo.MinimumWidth = 6;
+            this.SiSo.Name = "SiSo";
+            this.SiSo.Width = 125;
             // 
             // panel1
             // 
@@ -76,9 +98,9 @@
             this.panel1.Controls.Add(this.btn_them_lop);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(184, 450);
+            this.panel1.Size = new System.Drawing.Size(245, 554);
             this.panel1.TabIndex = 6;
             // 
             // label2
@@ -86,9 +108,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(138)))), ((int)(((byte)(7)))));
-            this.label2.Location = new System.Drawing.Point(104, 89);
+            this.label2.Location = new System.Drawing.Point(139, 110);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 29);
+            this.label2.Size = new System.Drawing.Size(72, 35);
             this.label2.TabIndex = 11;
             this.label2.Text = "Lớp";
             // 
@@ -97,44 +120,61 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(5, 89);
+            this.label1.Location = new System.Drawing.Point(7, 110);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 29);
+            this.label1.Size = new System.Drawing.Size(142, 35);
             this.label1.TabIndex = 10;
             this.label1.Text = "Quản Lý ";
-            // 
-            // panel7
-            // 
-            this.panel7.BackgroundImage = global::QLSV_XML.Properties.Resources.blackboard;
-            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel7.Location = new System.Drawing.Point(58, 3);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(54, 62);
-            this.panel7.TabIndex = 9;
             // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(138)))), ((int)(((byte)(7)))));
-            this.panel8.Location = new System.Drawing.Point(-2, 362);
+            this.panel8.Location = new System.Drawing.Point(-3, 446);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(12, 37);
+            this.panel8.Size = new System.Drawing.Size(16, 46);
             this.panel8.TabIndex = 8;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(138)))), ((int)(((byte)(7)))));
-            this.panel6.Location = new System.Drawing.Point(-2, 277);
+            this.panel6.Location = new System.Drawing.Point(-3, 341);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(12, 37);
+            this.panel6.Size = new System.Drawing.Size(16, 46);
             this.panel6.TabIndex = 8;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(138)))), ((int)(((byte)(7)))));
-            this.panel3.Location = new System.Drawing.Point(-2, 193);
+            this.panel3.Location = new System.Drawing.Point(-3, 238);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(12, 37);
+            this.panel3.Size = new System.Drawing.Size(16, 46);
             this.panel3.TabIndex = 8;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(138)))), ((int)(((byte)(7)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel2.Location = new System.Drawing.Point(245, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(982, 49);
+            this.panel2.TabIndex = 7;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // panel7
+            // 
+            this.panel7.BackgroundImage = global::QLSV_XML.Properties.Resources.blackboard;
+            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel7.Location = new System.Drawing.Point(75, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(101, 87);
+            this.panel7.TabIndex = 9;
             // 
             // button1
             // 
@@ -143,10 +183,10 @@
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button1.Image = global::QLSV_XML.Properties.Resources.audience__1_;
-            this.button1.Location = new System.Drawing.Point(11, 362);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(15, 446);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(184, 37);
+            this.button1.Size = new System.Drawing.Size(245, 46);
             this.button1.TabIndex = 5;
             this.button1.Text = "    Sinh Viên";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -160,10 +200,10 @@
             this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button2.Image = global::QLSV_XML.Properties.Resources.icons8_inspect_code_32;
-            this.button2.Location = new System.Drawing.Point(11, 277);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(15, 341);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(184, 37);
+            this.button2.Size = new System.Drawing.Size(245, 46);
             this.button2.TabIndex = 5;
             this.button2.Text = "    Tìm ";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -176,50 +216,25 @@
             this.btn_them_lop.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_them_lop.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btn_them_lop.Image = global::QLSV_XML.Properties.Resources.icons8_add_properties_32;
-            this.btn_them_lop.Location = new System.Drawing.Point(10, 193);
-            this.btn_them_lop.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_them_lop.Location = new System.Drawing.Point(13, 238);
+            this.btn_them_lop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_them_lop.Name = "btn_them_lop";
-            this.btn_them_lop.Size = new System.Drawing.Size(184, 37);
+            this.btn_them_lop.Size = new System.Drawing.Size(245, 46);
             this.btn_them_lop.TabIndex = 5;
             this.btn_them_lop.Text = "    Thêm";
             this.btn_them_lop.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_them_lop.UseVisualStyleBackColor = true;
             this.btn_them_lop.Click += new System.EventHandler(this.btn_them_lop_Click);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(138)))), ((int)(((byte)(7)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel2.Location = new System.Drawing.Point(184, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(736, 40);
-            this.panel2.TabIndex = 7;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // IdLop
-            // 
-            this.IdLop.HeaderText = "Id Lớp";
-            this.IdLop.Name = "IdLop";
-            // 
-            // TenLop
-            // 
-            this.TenLop.HeaderText = "Tên lớp";
-            this.TenLop.Name = "TenLop";
-            // 
-            // SiSo
-            // 
-            this.SiSo.HeaderText = "Sĩ số";
-            this.SiSo.Name = "SiSo";
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(920, 450);
+            this.ClientSize = new System.Drawing.Size(1227, 554);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dgv_QL_Lop);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Quản Lý Lớp";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -210,6 +210,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form_Edit_Lop";
             this.Text = "Form_Edit_Lop";
+            this.Load += new System.EventHandler(this.Form_Edit_Lop_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
