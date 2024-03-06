@@ -54,6 +54,7 @@
             this.btn_dangki.TabIndex = 14;
             this.btn_dangki.Text = "ĐĂNG KÍ";
             this.btn_dangki.UseVisualStyleBackColor = true;
+            this.btn_dangki.Click += new System.EventHandler(this.btn_dangki_Click);
             // 
             // txt_matkhau
             // 
