@@ -21,5 +21,13 @@ namespace QLSV_XML
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form_QLSV qLSV = new Form_QLSV();
+            qLSV.ShowDialog();
+
+        }
     }
 }

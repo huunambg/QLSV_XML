@@ -16,5 +16,13 @@ namespace QLSV_XML
         {
             InitializeComponent();
         }
+
+        private void btn_dangnhap_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.ShowDialog();
+         
+        }
     }
 }
