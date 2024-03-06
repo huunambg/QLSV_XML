@@ -1,9 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <QL_TaiKhoan>
-	<TaiKhoan Id_TaiKhoan="01">
-		<TaiKhoan></TaiKhoan>
-		<MatKhau></MatKhau>
-		<HoTen></HoTen>
-		<SDT></SDT>
-	</TaiKhoan>
+  <TaiKhoan id_TaiKhoan="1">
+    <TaiKhoan>1111111</TaiKhoan>
+    <MatKhau>111111</MatKhau>
+    <HoTen>111111</HoTen>
+    <SDT>111111</SDT>
+  </TaiKhoan>
+  <TaiKhoan id_TaiKhoan="2">
+    <TaiKhoan>222222</TaiKhoan>
+    <MatKhau>222222</MatKhau>
+    <HoTen>222222</HoTen>
+    <SDT>222222</SDT>
+  </TaiKhoan>
 </QL_TaiKhoan>
