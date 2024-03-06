@@ -58,6 +58,30 @@
     <Compile Include="Form_Add_Lop.Designer.cs">
       <DependentUpon>Form_Add_Lop.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Add_SinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Add_SinhVien.Designer.cs">
+      <DependentUpon>Form_Add_SinhVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Edit_Lop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Edit_Lop.Designer.cs">
+      <DependentUpon>Form_Edit_Lop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Edit_SinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Edit_SinhVien.Designer.cs">
+      <DependentUpon>Form_Edit_SinhVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_QLSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_QLSV.Designer.cs">
+      <DependentUpon>Form_QLSV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +90,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sigup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sigup.Designer.cs">
+      <DependentUpon>Sigup.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +115,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Sigup.resx">
+      <DependentUpon>Sigup.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -100,6 +133,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Lop.xml" />
+    <None Include="Resources\unfollow.png" />
+    <None Include="Resources\student %281%29.png" />
+    <None Include="Resources\audience.png" />
+    <None Include="Resources\inscription.png" />
+    <None Include="Resources\contract.png" />
+    <None Include="Resources\user %281%29.png" />
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\students.png" />
     <None Include="Resources\login1.jpg" />
     <None Include="Resources\online-education %281%29.png" />
     <None Include="Resources\login.jpg" />
