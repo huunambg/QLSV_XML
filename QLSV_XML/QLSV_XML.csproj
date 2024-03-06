@@ -52,10 +52,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Add_Lop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Add_Lop.Designer.cs">
+      <DependentUpon>Form_Add_Lop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Add_Lop.resx">
+      <DependentUpon>Form_Add_Lop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +97,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lop.xml" />
+    <None Include="Resources\login1.jpg" />
+    <None Include="Resources\online-education %281%29.png" />
+    <None Include="Resources\login.jpg" />
+    <None Include="Resources\online-education.png" />
+    <None Include="Resources\blackboard %281%29.png" />
+    <None Include="Resources\blackboard.png" />
+    <None Include="Resources\icons8-inspect-code-32.png" />
+    <None Include="Resources\icons8-edit-property-32.png" />
+    <None Include="Resources\icons8-delete-document-32.png" />
+    <None Include="Resources\icons8-add-properties-32.png" />
+    <None Include="Resources\icons8-denied-32.png" />
+    <None Include="Resources\icons8-edit-profile-32.png" />
+    <None Include="Resources\icons8-add-user-male-32.png" />
+    <None Include="Resources\icons8-add-user-male-16.png" />
+    <None Include="Resources\icons8-student-registration-24.png" />
+    <None Include="Resources\student.png" />
+    <None Include="Resources\add.png" />
+    <Content Include="SinhVien.xml" />
+    <Content Include="TaiKhoan.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QLSV_XML
 {
-    public partial class Form_Add_Lop : Form
+    public partial class Form_QLSV : Form
     {
-        public Form_Add_Lop()
+        public Form_QLSV()
         {
             InitializeComponent();
         }

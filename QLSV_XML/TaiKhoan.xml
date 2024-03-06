@@ -1,1 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QL_TaiKhoan>
+	<TaiKhoan Id_TaiKhoan="01">
+		<TaiKhoan></TaiKhoan>
+		<MatKhau></MatKhau>
+		<HoTen></HoTen>
+		<SDT></SDT>
+	</TaiKhoan>
+</QL_TaiKhoan>
