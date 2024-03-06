@@ -93,6 +93,16 @@ namespace QLSV_XML.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap audience__1_ {
+            get {
+                object obj = ResourceManager.GetObject("audience (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap blackboard {
             get {
                 object obj = ResourceManager.GetObject("blackboard", resourceCulture);
@@ -116,6 +126,16 @@ namespace QLSV_XML.Properties {
         internal static System.Drawing.Bitmap contract {
             get {
                 object obj = ResourceManager.GetObject("contract", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap google_classroom {
+            get {
+                object obj = ResourceManager.GetObject("google-classroom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
