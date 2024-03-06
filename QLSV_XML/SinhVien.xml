@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <QL_SinhVien>
 	<SinhVien Id_SinhVien="sv01">
-		<Id_Lop></Id_Lop>
-		<HoTen></HoTen>
+		<Id_Lop>1</Id_Lop>
+		<HoTen>Nong Huu Nam</HoTen>
 		<NgaySinh></NgaySinh>
 		<GioiTinh></GioiTinh>
 		<DiaChi></DiaChi>
@@ -11,8 +11,8 @@
 	</SinhVien>
 
 	<SinhVien Id_SinhVien="sv02">
-		<Id_Lop></Id_Lop>
-		<HoTen></HoTen>
+		<Id_Lop>3</Id_Lop>
+		<HoTen>NguyenThanh Long</HoTen>
 		<NgaySinh></NgaySinh>
 		<GioiTinh></GioiTinh>
 		<DiaChi></DiaChi>

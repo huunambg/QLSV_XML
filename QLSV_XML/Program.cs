@@ -16,7 +16,7 @@ namespace QLSV_XML
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Sigup());
+            Application.Run(new Login());
         }
     }
 }

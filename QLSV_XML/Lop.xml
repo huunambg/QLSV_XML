@@ -1,13 +1,38 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <QL_Lop>
-	<Lop Id_Lop="l01">
-		<TenLop></TenLop>
-		<TenGVCN></TenGVCN>
-		<SiSo></SiSo>
-	</Lop>
-	<Lop Id_Lop="l023">
-		<TenLop></TenLop>
-		<TenGVCN></TenGVCN>
-		<SiSo></SiSo>
-	</Lop>
+  <Lop Id_Lop="1">
+    <Id_TaiKhoan>1</Id_TaiKhoan>
+		<TenLop>CNTTK19A</TenLop><SiSo>50</SiSo></Lop>
+  <Lop Id_Lop="2">
+	  
+	  
+    <Id_TaiKhoan>1</Id_TaiKhoan>
+		<TenLop>CNTTK19B</TenLop>
+	  <SiSo>50</SiSo>
+  </Lop>
+	
+	
+  <Lop Id_Lop="l01">
+    <Id_TaiKhoan>3</Id_TaiKhoan>
+		<TenLop>CNTTK19C</TenLop>
+	  <SiSo>50</SiSo>
+  </Lop>
+	
+	
+	
+  <Lop Id_Lop="4">
+	  <Id_TaiKhoan>1</Id_TaiKhoan>
+    <TenLop>CNTTK19D</TenLop>
+    <SiSo>22</SiSo>
+    
+  </Lop>
+	
+	
+	
+  <Lop Id_Lop="5">
+	  <Id_TaiKhoan>1</Id_TaiKhoan>
+	  <TenLop>ádasd</TenLop>
+	  <SiSo>334</SiSo>
+
+  </Lop>
 </QL_Lop>
