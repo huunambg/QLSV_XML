@@ -46,7 +46,6 @@ namespace QLSV_XML
                 {
                     dgv.Rows.Add();
                     dgv.Rows[sd].Cells[0].Value = node.SelectSingleNode("@Id_SinhVien").Value;
-    
                     dgv.Rows[sd].Cells[1].Value = node.SelectSingleNode("HoTen").InnerText;
                     dgv.Rows[sd].Cells[2].Value = node.SelectSingleNode("HoTen").InnerText;
                     dgv.Rows[sd].Cells[3].Value = node.SelectSingleNode("NgaySinh").InnerText;
